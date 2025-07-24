@@ -1,0 +1,325 @@
+
+
+screen.PYVTRON_VX_SHADER_INFO=Copyright (C) Pyvtron Version VX Shader Von Pyvtron
+
+screen.RAYTRACING=Raytracing
+
+option.RAYTRACE_QUALITY=Raytrace Qualität
+option.RAYTRACE_REFINEMENT=Raytrace Verfeinerung
+option.RAYTRACE_REFINEMENT_STEPS=Raytrace Verfeinerungsschritte
+
+screen.LIGHTING=Beleuchtung
+
+screen.LIGHT_SOURCE=Beleuchtungsquelle
+
+option.SUNLIGHT_INTENSITY=Sonneneinstrahlungsstärke
+option.NIGHT_BRIGHTNESS=Nacht-Helligkeit
+option.sunPathRotation=Sonnenspur-Drehung
+option.TORCHLIGHT_BRIGHTNESS=Laterne-Helligkeit
+option.TORCHLIGHT_COLOR_TEMPERATURE=Laterne-Farbtemperatur
+value.TORCHLIGHT_COLOR_TEMPERATURE.2000=2000K
+value.TORCHLIGHT_COLOR_TEMPERATURE.2300=2300K
+value.TORCHLIGHT_COLOR_TEMPERATURE.2500=2500K
+value.TORCHLIGHT_COLOR_TEMPERATURE.3000=3000K
+value.TORCHLIGHT_COLOR_TEMPERATURE.5000=6500K
+value.TORCHLIGHT_COLOR_TEMPERATURE.999=RGB
+option.NOLIGHT_BRIGHTNESS=Grundhelligkeit
+
+screen.HELDLIGHT=Gehaltene Lichtquelle
+
+option.HELDLIGHT_BRIGHTNESS=Helligkeit
+option.HELDLIGHT_FALLOFF=Entfernungsfallabfall
+option.NORMAL_HELDLIGHT=Normaler Effekt
+option.SPECULAR_HELDLIGHT=Spekularer Effekt
+option.FLASHLIGHT_HELDLIGHT=Blitzlichtmodus
+option.FLASHLIGHT_HELDLIGHT_FALLOFF=Entfernungsfallabfall
+
+screen.SHADOWS=Schatten
+
+option.shadowMapResolution=Schattenkartenauflösung
+option.shadowDistance=Schattenentfernung
+value.shadowDistance.64.0=4
+value.shadowDistance.96.0=6
+value.shadowDistance.128.0=8
+value.shadowDistance.192.0=12
+value.shadowDistance.256.0=16
+value.shadowDistance.384.0=24
+value.shadowDistance.512.0=32
+value.shadowDistance.768.0=48
+value.shadowDistance.1024.0=64
+suffix.shadowDistance=Chunks
+option.SHADOW_MAP_BIAS=Schattenkarten-Bias
+option.VARIABLE_PENUMBRA_SHADOWS=Variable Halbtonschatten
+option.COLORED_SHADOWS=Gefärbte Schatten
+option.SCREEN_SPACE_SHADOWS=Bildschirmraum-Schatten
+option.SUNLIGHT_LEAK_FIX=Sonnenlicht-Durchschlüpf-Fix
+
+screen.GI_OPTION=GI
+
+option.GI=GI aktiviert
+option.ENABLE_SSAO=SSAO
+option.GI_QUALITY=Stichprobenqualität
+option.GI_FILTER_QUALITY=Filterqualität
+option.GI_RENDER_RESOLUTION=Rendergröße
+value.GI_RENDER_RESOLUTION.1=Halb
+value.GI_RENDER_RESOLUTION.0=Voll
+option.GI_RADIUS=Radius
+option.GI_BRIGHTNESS=Stärke
+option.GI_SATURATION=Sättigung
+option.SKYLIGHT_EFFECT_GI=Leckfix
+
+screen.SURFACE=Textur
+
+option.TEXTURE_RESOLUTION=Texturauflösung
+
+screen.POM=Parallax
+
+option.PARALLAX=Steifer Parallax aktiviert
+option.SMOOTH_PARALLAX=Glatter Parallax
+option.PARALLAX_DEPTH=Steifer Parallax-Tiefe
+option.PARALLAX_DISTANCE=Steifer Parallax-Entfernung
+option.PARALLAX_SHADOW=Steifer Parallax-Selbstschatten
+
+screen.PBR=PBR
+
+option.TEXTURE_PBR_FORMAT=PBR-Format
+value.TEXTURE_PBR_FORMAT.0=PTGI
+value.TEXTURE_PBR_FORMAT.1=Lab PBR
+option.ROUGHNESS_CLAMP=Hohen Rauheit klemmen
+option.SKY_IMAGE_LOD=Spiegelung Himmelkasten LOD-Level
+option.SKY_IMAGE_HORIZON=Spiegelung Himmelkasten Horizont
+option.TERRAIN_NORMAL_CLAMP=Gelände-Normalen-Klemme
+option.HAND_NORMAL_CLAMP=Hand-Normalen-Klemme
+option.ENTITY_NORMAL_CLAMP=Entität-Normalen-Klemme
+option.LANDFOG_REFLECTION=Landnebel in Spiegelung
+option.VFOG_REFLECTION=Volumetrischer Nebel in Spiegelung
+
+screen.WATER_RAIN=Wasser & Regen
+
+option.WATER_PARALLAX=Wasser-Parallax
+option.RAIN_SPLASH_EFFECT=Regenschlagsprays
+option.RAIN_SPLASH_BILATERAL=Regenschlagsprays glätten
+option.RAIN_VISIBILITY=Regensichtbarkeit
+option.drynessHalflife=Trocken>>Nass Halbzeit
+option.wetnessHalflife=Nass>>Trocken Halbzeit
+
+screen.SKY_TEXTURE=Himmeltexur
+
+option.STARS=Sterne
+option.STARS_AMOUNT=Sternenzahl
+option.STARS_SCALE=Sternengröße
+option.MOON_TEXTURE=Mondtexur
+option.SKY_TEXTURE_BRIGHTNESS=Texurhelligkeit
+
+screen.SURFMISC=Verschiedenes
+
+option.ENTITY_STATUS_COLOR=Statusfarbe der Entität
+option.EYES_LIGHTING=Augenbeleuchtung der Entität
+option.SELECTION_BOX_COLOR=Blockauswahlrahmenfarbe
+value.SELECTION_BOX_COLOR.0.0=Schwarz
+value.SELECTION_BOX_COLOR.1.0=Weiß
+option.WAVING_PLANTS=Schwankende Pflanzen
+option.PLANT_TOUCH_EFFECT=Berührungseffekt von Pflanzen
+option.GENERAL_GRASS_FIX=Allgemeine Grasreparatur
+
+screen.VOLUMETRIC_CLOUDS=Volumetrische Wolken
+screen.PLANAR_CLOUDS=Flächige Wolken
+screen.VOLUMETRIC_FOG=Volumetrischer Nebel
+
+screen.ATMOSPHERICS=Atmosphäre
+
+option.PLANE_CLOUDS=Flächige Wolken
+
+screen.PC=Einstellungen
+option.PC_COVERAGE=Abdeckung
+option.PC_NOISE_SCALE=Rauschskalierung
+option.PC_ALTITUDE=Höhe
+
+option.VOLUMETRIC_CLOUDS=Volumetrische Wolken
+
+screen.VC=Einstellungen
+option.CLOUD_ACCURACY=Auflösung
+option.CLOUD_FBM_OCTAVES=Rauschoktaven
+option.CLOUD_NOISE_SCALE=Rauschskalierung
+option.CLOUD_MULTISCAT_QUALITY=Mehrfachstreuungsqualität
+option.ADAPTIVE_OCTAVES=Adaptive Oktaven
+option.CLOUD_SUNLIGHT_QUALITY=Sonnenlicht-Qualität
+option.CLOUD_SKYLIGHT_QUALITY=Himmelslicht-Qualität
+option.ATMO_TRAINSITION_DISTANCE=Übergangsdistanz der Atmosphäre
+option.CLOUD_SPEED=Wolkengeschwindigkeit
+option.CLOUD_SHADOW=Wolken-Schatten
+
+screen.CLEAR_SETTING=Klarstellungseinstellungen
+
+option.CLOUD_CLEAR_ALTITUDE=Fakes-Modus-Höhe
+option.CLOUD_CLEAR_THICKNESS=Dicke
+option.CLOUD_CLEAR_COVERY=Abdeckung
+option.CLOUD_CLEAR_DENSITY=Dichte
+option.CLOUD_CLEAR_FBM_OCTSCALE=Rauschlacunarität
+option.CLOUD_CLEAR_UPPER_LIMIT=Obere Grenze der vertikalen Dichteabschnitte
+option.CLOUD_CLEAR_LOWER_LIMIT=Untere Grenze der vertikalen Dichteabschnitte
+option.CLOUD_CLEAR_SUNLIGHTING=Sonnenlicht-Stärke
+option.CLOUD_CLEAR_SKYLIGHTING=Himmelslicht-Stärke
+option.CLOUD_CLEAR_SUNLIGHT_LENGTH=Sonnenlicht-Stichprobendistanz
+option.CLOUD_CLEAR_SKYLIGHT_LENGTH=Himmelslicht-Stichprobendistanz
+
+screen.RAIN_SETTING=Regeneinstellungen
+
+option.CLOUD_RAIN_ALTITUDE=Fakes-Modus-Höhe
+option.CLOUD_RAIN_THICKNESS=Dicke
+option.CLOUD_RAIN_COVERY=Abdeckung
+option.CLOUD_RAIN_DENSITY=Dichte
+option.CLOUD_RAIN_LIGHT_DENSITY=Beleuchtungsdichte
+option.CLOUD_RAIN_FBM_OCTSCALE=Rauschlacunarität
+option.CLOUD_RAIN_UPPER_LIMIT=Obere Grenze der vertikalen Dichteabschnitte
+option.CLOUD_RAIN_LOWER_LIMIT=Untere Grenze der vertikalen Dichteabschnitte
+option.CLOUD_RAIN_SUNLIGHTING=Sonnenlicht-Stärke
+option.CLOUD_RAIN_SKYLIGHTING=Himmelslicht-Stärke
+option.CLOUD_RAIN_SUNLIGHT_LENGTH=Sonnenlicht-Stichprobendistanz
+option.CLOUD_RAIN_SKYLIGHT_LENGTH=Himmelslicht-Stichprobendistanz
+
+option.VFOG=Volumetrischer Nebel
+
+screen.VFOG=Einstellungen
+option.VFOG_NOISE_TYPE=Rauschtyp
+option.VFOG_HQ_CLOUD_SHADOW=Akkurater Wolken-Schatten
+option.VFOG_DENSITY=Dichte
+option.VFOG_DENSITY_BASE=Basisdichte
+option.VFOG_QUALITY=Qualität
+option.VFOG_MULTISCAT_QUALITY=Mehrfachstreuungsqualität
+option.VFOG_HEIGHT=Mittelpunkthöhe
+option.VFOG_HEIGHT_2=Mittelpunkthöhe
+option.VFOG_FALLOFF=Ablenkungsdistanz
+option.VFOG_IGNORE_WORLDTIME=Weltzeit ignorieren
+option.INDOOR_VFOG=Innener Volumetrischer Nebel
+option.VFOG_STAINED=Transparenzverschmutzung
+option.VFOG_SUNLIGHT_DENSITY=Sonnenlicht-Stärke
+option.VFOG_FOG_DENSITY=Himmelslicht-Stärke
+option.VFOG_SUNLIGHT_STEPLENGTH=Sonnenlicht-Schrittweite
+option.VFOG_SUNLIGHT_STEPS=Sonnenlicht-Schritte
+
+screen.VOLUMETRIC_CLOUD_FOG=Volumetrische Wolken-Nebel
+
+option.VCFOG_QUALITY=Qualität
+option.VCFOG_RANGE=Reichweite
+option.VCFOG_HIGH_ACCURACY=HQ Volumetrische Wolken-Nebel
+option.VCFOG_DENSITY=Dichte
+option.VCFOG_IGNORE_GROUND=Volumetrische Wolken-Nebel Reichweite
+option.VCFOG_H_FADE_HEIGHT=Ausblenden-Höhe
+option.VCFOG_H_FADE_MIDPOINT=Ausblenden-Mittelpunkt
+option.VCFOG_D_FADE_RATIO=Ausblenden-Verhältnis
+
+screen.LIGHT_RAYS=Lichtstrahlen
+
+option.VOLUMETRIC_LIGHT_STRENGTH=Lichtstrahlen-Stärke
+option.VOLUMETRIC_LIGHT_QUALITY=Lichtstrahlen-Qualität
+
+option.CLOUD_VOLUMETRIC_FOG=Volumetrische Wolken-Nebel
+
+screen.SKY_MISC=Verschiedenes
+option.RAYLEIGH_AMOUNT=Dichte des Landnebels
+option.INDOOR_FOG=Innener Landnebel
+option.UNDERWATER_FOG=Unterwassernebel
+option.RAIN_FOG=Regennebel
+option.RAIN_FOG_DENSITY=Regennebeldichte
+option.AURORA=Aurora
+option.AURORA_STRENGTH=Aurora-Stärke
+
+screen.POSTPROCESSING=Nachbearbeitung
+
+option.TAA=TAA Anti-Aliasing
+
+screen.LENS_FLARE=Linsenlicht
+
+option.LENS_FLARE=Linsenlicht
+option.LENS_FLARE_STRENGTH=Linsenlicht-Stärke
+option.LENS_FLARE_SAMPLES=Linsenlicht-Proben
+option.LENS_FLARE_BLUR_SAMPLES=Linsenlicht-Blur-Proben
+option.LENS_FLARE_THRESHOLD=Linsenlicht-Schwelle
+option.GHOST_FLARE_SPACING_MULT=Linsenlicht-Spacing-Multiplikator
+option.HALO_FLARE_SPACING_MULT=Halo-Linsenlicht-Spacing-Multiplikator
+
+screen.DOF=Tiefenschärfe
+
+option.DOF=Tiefenschärfe aktiviert
+option.CAMERA_FOCUS_MODE=Fokusmodus
+value.CAMERA_FOCUS_MODE.0=Automatisch
+value.CAMERA_FOCUS_MODE.1=Manuell
+option.CAMERA_FOCAL_POINT=Manueller Fokuspunkt
+suffix.CAMERA_FOCAL_POINT= m
+option.CAMERA_APERTURE=Aufnahme
+option.DOF_SAMPLES=Abtastqualität
+option.DISTORTION_BARREL=Barrel-Verformungsgrad
+
+screen.EXPOSURE_SETTING=Belichtung
+
+option.AE_MODE=AE-Modus
+value.AE_MODE.0=Mittelpunkt gewichtet
+value.AE_MODE.1=Nur Mittelpunkt
+value.AE_MODE.2=Bildschirmmittelwert
+option.AE_CURVE=AE-Kurve
+option.AE_OFFSET=AE-Versatz
+suffix.AE_OFFSET= EV
+option.LUMINANCE_WEIGHT=Luminanzgewichtung
+option.LUMINANCE_WEIGHT_MODE=Gewichtungsmodus
+value.LUMINANCE_WEIGHT_MODE.0=Schattenpriorität
+value.LUMINANCE_WEIGHT_MODE.1=Hellerpunktpriorität
+option.LUMINANCE_WEIGHT_STRENGTH=Gewichtungsstärke
+option.SMOOTH_EXPOSURE=Glätte AE
+option.EXPOSURE_TIME=AE-Übergangszeit
+option.MANUAL_EXPOSURE=Manuelle Belichtung
+option.EV_VALUE=Aufgenommener EV-Wert
+suffix.EV_VALUE= EV
+
+screen.MOTION_BLUR_SETTING=Bewegungsumwurf
+
+option.MOTION_BLUR=Bewegungsumwurf
+option.MOTION_BLUR_STRENGTH=Bewegungsumwurf-Stärke
+option.MOTION_BLUR_DITHER=Dither
+option.MOTION_BLUR_QUALITY=Qualität
+option.MOTION_BLUR_SUTTER_ANGLE=Sutter-Winkel
+suffix.MOTION_BLUR_SUTTER_ANGLE=°
+
+screen.BLOOM=Blooming
+
+option.BLOOM_EFFECTS=Blooming aktiviert
+option.BLOOM_AMOUNT=Blooming-Stärke
+option.MICRO_BLOOM=Klare Kante
+option.BLOOM_KB=Helligkeit beibehalten
+option.BLOOM_DB=Stärkung in dunklen Szenen
+option.BLOOM_DB_MULTIPLIER=Stärkungsmultiplikator
+
+screen.COLOR=Farbanpassung
+
+option.TONEMAP_OPERATOR=Tonemapping
+value.TONEMAP_OPERATOR.SEUSTonemap=SEUS
+value.TONEMAP_OPERATOR.LottesTonemap=Lottes
+value.TONEMAP_OPERATOR.UchimuraTonemap=Uchimura
+value.TONEMAP_OPERATOR.HableTonemap=Hable
+value.TONEMAP_OPERATOR.ACESTonemap=ACES
+value.TONEMAP_OPERATOR.ACESTonemap2=ACES II
+option.TONEMAP_CURVE=Tonemapping-Kurve
+
+option.ADVANCED_COLOR=Erweiterte Farbanpassung aktiviert
+
+screen.ADVANCED_COLOR=Einstellungen
+
+option.SATURATION=Sättigung
+option.GAMMA=Gamma
+option.LUMA_GAMMA=Luminanz-Gamma
+option.WHITE_CLIP=Weißclip
+option.WHITE_BALANCE=Weiße Abstimmung
+option.TINT_BALANCE=Tint
+
+screen.POSTMISC=Verschiedenes
+
+option.POST_SHARPENING=Nachbearbeitungs-Scharfung
+value.POST_SHARPENING.0=Aus
+value.POST_SHARPENING.1=Niedrig
+value.POST_SHARPENING.2=Mittel
+value.POST_SHARPENING.3=Hoch
+option.LOWLIGHT_COLORFADE=Nachtlichtfarbüberblendung
+
+screen.SHORTCUT=Tastenkürzel
+
+screen.DEBUG=Debug
