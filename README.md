@@ -1,6 +1,8 @@
 # Pyvtron VX
 A cinematic shader designed for visual storytelling, enhanced godrays, depth-of-field and post-processing effects.
 
+![Pyvtron VX](https://i.ibb.co/jvgJqfDk/Pyvtron-VXBackground.png)
+
 ## Details
 
 Features: Volumetric Fog, Water Caustics, Volumetric Clouds, High Resolution Graphics.
