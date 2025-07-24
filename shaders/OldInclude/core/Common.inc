@@ -1,5 +1,5 @@
 
-//Renewed modified by Nicht312
+//Renewed modified by Pyvtron
 
 //#define INTEL_SUPPORT
 
